@@ -11,5 +11,7 @@ public class DogDrive
         System.out.println("Total dogs: "+Dog.numDogs());
         System.out.println("Compare Age (Nutmeg:Fang): "+ dog2.getOldestDog(dog1));
         System.out.println("Compare Age (Fang:Zwei): "+ dog1.getOldestDog(dog3));
+        System.out.println("Compare Age (Fang:Zwei): "+ dog1.getOldestDog(dog3));
+
     }//close main
 }//close DogDrive
